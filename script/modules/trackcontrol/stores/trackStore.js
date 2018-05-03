@@ -137,7 +137,7 @@ var TrackStore = Reflux.createStore({
         this.trigger('switchmanagetab', index);
     },
     onGetservicename: function() {
-        this.trigger('servicename', '示例DEMO');
+        this.trigger('servicename', '安全防护系统');
         // 车辆行业0，
         this.trigger('servicetype', 0);
     },
@@ -1392,7 +1392,7 @@ var TrackStore = Reflux.createStore({
                 ['速度:', point.printSpeed],
                 ['时间:', point.printTime],
                 ['高度:', point.height + '米'],
-                ['精度:', point.radius + '米']
+                ['精度:', point.radius + '米'],
             ]
             // lnglat: point.lnglat,
             // address: address,

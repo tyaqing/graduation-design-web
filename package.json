@@ -11,7 +11,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"fis3 release demo",
+    "server":"fis3 server start",
+    "dev":"fis3 release demo -wl"
   },
   "author": "cuijian",
   "license": "ISC"

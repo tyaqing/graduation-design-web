@@ -11,7 +11,7 @@ var Managetitle = React.createClass({
     getInitialState: function() {
         return {
             // 当前service名
-            serviceName: '',
+            serviceName: '实例',
             // 当前toggle状态class名
             toggleClass: 'toggleInManage'
         }
